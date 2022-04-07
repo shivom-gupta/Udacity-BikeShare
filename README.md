@@ -8,3 +8,13 @@ Thanks to the rise in information technologies, it is easy for a user of the sys
 
 In this project, I used data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. This data was used to compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
 
+
+## How to run the program?
+
+First, we need to extract data.zip file to obtain the datasets. Then we can simply use the following command in the terminal:
+
+== python bikeshare.py ==
+
+To view dashboard, run the following command in a terminal:
+
+== streamlit run dashboard.py ==
