@@ -13,8 +13,8 @@ In this project, I used data provided by Motivate, a bike share system provider 
 
 First, we need to extract data.zip file to obtain the datasets. Then we can simply use the following command in the terminal:
 
-== python bikeshare.py ==
+#### python bikeshare.py 
 
 To view dashboard, run the following command in a terminal:
 
-== streamlit run dashboard.py ==
+#### streamlit run dashboard.py
