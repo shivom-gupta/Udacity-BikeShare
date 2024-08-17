@@ -1,20 +1,49 @@
-# Udacity-BikeShare
+# Bike Share Data Analysis
 
-## Bike Share Data
+### Overview
 
-Over the past decade, bicycle-sharing systems have been growing in number and popularity in cities across the world. Bicycle-sharing systems allow users to rent bicycles on a very short-term basis for a price. This allows people to borrow a bike from point A and return it at point B, though they can also return it to the same location if they'd like to just go for a ride. Regardless, each bike can serve several users per day.
+This project explores bike share usage patterns in three major U.S. cities: Chicago, New York City, and Washington, DC. Using data provided by Motivate, a major bike share system provider, the analysis uncovers trends and insights into bike-sharing usage across these cities. The project is implemented in Python, featuring both a command-line interface and a Streamlit-based dashboard for interactive data visualization.
 
-Thanks to the rise in information technologies, it is easy for a user of the system to access a dock within the system to unlock or return bicycles. These technologies also provide a wealth of data that can be used to explore how these bike-sharing systems are used.
+### Project Structure
 
-In this project, I used data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. This data was used to compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
+- **Data Files**: CSV files containing bike share data for each city.
+- **Scripts**:
+  - `bikeshare.py`: Python script for interactive command-line analysis.
+  - `dashboard.py`: Streamlit-based dashboard for data visualization.
 
+### How to Run
 
-## How to run the program?
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/shivom-gupta/Udacity-BikeShare.git
+   cd Udacity-BikeShare
+   ```
 
-First, we need to extract data.zip file to obtain the datasets. Then we can simply use the following command in the terminal:
+2. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-#### python bikeshare.py 
+3. **Extract Data**:
+   Unzip the data file if needed:
+   ```bash
+   unzip data.zip
+   ```
 
-To view dashboard, run the following command in a terminal:
+4. **Run Command-Line Analysis**:
+   ```bash
+   python bikeshare.py
+   ```
 
-#### streamlit run dashboard.py
+5. **Run the Dashboard**:
+   ```bash
+   streamlit run dashboard.py
+   ```
+
+### Key Features
+
+- **City Comparison**: Analyze and compare bike share usage across Chicago, New York City, and Washington, DC.
+- **Interactive Analysis**: Explore the data interactively using the command-line interface.
+- **Visual Dashboard**: Interact with data visualizations in the Streamlit dashboard.
+
+This project provides a comprehensive toolset for exploring and analyzing bike share usage data, helping to uncover valuable insights into urban mobility trends.
